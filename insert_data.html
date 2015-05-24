@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title> School Data Insert Form</title>
+    
+    <style>
+      header{
+        background-color: brown;
+        color: white;
+        text-align: center;     
+        padding: 0.1%   
+      }
+      
+      .wrapper{
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: palevioletred;    
+            
+      }
+      .labelname{
+        width: 50%;
+        float: left;
+        text-align: right;
+      } 
+      .formname{
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding-top: 0.1%;
+      }          
+      .row{
+        width: 100%;
+      }
+      
+    </style>
+    
+
+    
+  </head>
+  <body>
+    <header>
+       <h1> Insert Information</h1>
+    </header>
+    
+    <div class="wrapper">
+      <form  method="POST" action="">
+        </br>
+        <div class="row">
+        <div class="labelname">First Name : </div>
+          
+        <div class="formname" >
+           <input type="text" required="" name="first_name"></input>
+        </div>
+       </div>
+       </br>
+       
+       <div class="row">
+        <div class="labelname" >Last Name :</div>
+          
+        <div class="formname" >
+           <input type="text" required="" name="last_name"></input>
+        </div>
+       </div>
+       
+       </br>
+       <div class="row">
+        <div class="labelname" >E-mail :</div>
+          
+        <div class="formname" >
+          <input type="email" required="" name="email"></input>
+        </div>
+       </div>
+       </br>
+       
+       <div class="row">
+        <div class="labelname" >Registration Date :</div>
+          
+        <div class="formname" >
+          <input type="date" name="reg_date"  required=""></input>
+        </div>
+       </div>
+       
+       </br>
+       <div class="row">
+        <div class="labelname" >Catagory :</div>
+          
+        <div class="formname" >
+          <select name="catagory" required="">
+            <option></option>
+            <option value="Teacher">Teacher</option>
+            <option value="Student">Student</option>            
+          </select>          
+        </div>
+       </div>
+       
+       <div class="formname">
+       <input type="submit" value="submit"></input>
+       </div>
+      </form>
+    </div>
+     
+    
+  </body>
+</html>
