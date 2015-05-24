@@ -67,7 +67,7 @@
         echo "ERROR" . mysql_error();
         }
         // close mysql
-        mysql_close($mysqli);
+        mysql_close($db_server);
 
       	        }
       ?>
